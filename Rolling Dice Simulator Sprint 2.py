@@ -25,7 +25,7 @@ def close_restart(self, csvfile):
         print("Thank you for playing the game")
     
 #While loop to keep on rolling the dice until no condition is met or until you have reached the limit
-while limit <= 4:
+while limit <= 6:
     #This ask the input from the user
     ask = input("Do you want to roll again?Yes/No ").upper()#The .upper method will convert all the lowercase characters and returns the original string
     limit = limit + 1
