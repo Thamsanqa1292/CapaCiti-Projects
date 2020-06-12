@@ -4,7 +4,9 @@ Created on Thu Jun 11 16:03:21 2020
 
 @author: Thamsanqa
 """
+#This module will all the restart function to interact with the operating system or file system
 import os
+#This module will provide access to some variables used or maintained by the interpreter and to functions that interact wuth the interpreter
 import sys
 #This is a random module that will allow us to pick any side of the dice randomly
 import random
@@ -13,7 +15,7 @@ print("Welcome to the ROLLING DICE SIMULATOR, enjoy the program")
 diceRoll = random.randint(1, 6)
 print(diceRoll)
 limit = 0
-
+#This function will allow the user to have an option to restart the game.
 def close_restart(self, csvfile):
     choice = input("Do you want to restart the program?")
     
