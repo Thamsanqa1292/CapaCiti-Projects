@@ -4,8 +4,7 @@ Created on Thu Jun 18 14:22:01 2020
 
 @author: Thamsanqa
 """
-# randon-pasword-
-#Random Password generator using python
+#This is a Random Password Generator
 import random
 
 alphabets = ["A","B","C","D","E","F"]
