@@ -1,1 +1,8 @@
+USE products;
+CREATE TABLE stock(
+category varchar(50),
+first_product varchar(50),
+second_product varchar(50),
+third_product varchar(50))
 
+Select * from stock;
